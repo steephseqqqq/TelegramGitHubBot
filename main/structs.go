@@ -7,13 +7,6 @@ type UserGitHubProfile struct {
 }
 
 type GitHubRepository struct {
-	ID      int64  `json:"id"`
-	Name    string `json:"name"`
-	Private bool   `json:"private"`
-	HTMLURL string `json:"html_url"`
-}
-
-type GitHubRepo struct {
 	ID          int    `json:"id"`
 	Name        string `json:"name"`
 	FullName    string `json:"full_name"`
